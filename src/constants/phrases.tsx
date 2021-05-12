@@ -128,7 +128,7 @@ const phrases = [
   "{1} Tambourine",
   "Encyclopedia {1}",
   "Yippee Kay Yay {1}",
-  "{1} Stop Drop & Roll",
+  "Stop Drop & {1}",
   "Alright that’s enough {1}",
   "Goodnight {1}",
   "Jesus Christ {1}",
