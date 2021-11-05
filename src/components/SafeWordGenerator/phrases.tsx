@@ -172,6 +172,8 @@ const phrases = [
   "Stop {1}",
   "Mercy {1}",
   "Oklahoma {1}",
+  "I should have bought $DOGE",
+  "I sold our {1}",
 ];
 
 export { phrases };

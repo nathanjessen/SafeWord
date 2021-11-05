@@ -1,4 +1,3 @@
-import React from "react";
 import { Header, Stats } from "../index";
 
 export default function Hero() {

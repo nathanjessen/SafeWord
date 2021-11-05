@@ -1,5 +1,3 @@
-import React from "react";
-
 const files = [
   {
     title: "IMG_4985.HEIC",
