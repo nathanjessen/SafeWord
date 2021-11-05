@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { terms } from "../../constants/terms";
-import { phrases } from "../../constants/phrases";
+import { useState } from "react";
+import { terms } from "./terms";
+import { phrases } from "./phrases";
 
 export default function SafeWordGenerator() {
   const [safeword, setSafeWord] = useState<string>("");

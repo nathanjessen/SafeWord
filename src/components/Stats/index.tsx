@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Stats() {
   const price = 0;
   const holders = 0;

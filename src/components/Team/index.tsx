@@ -1,4 +1,3 @@
-import React from "react";
 import { CARICATURE } from "../../assets";
 
 const people = [
