@@ -1,9 +1,9 @@
+/** @type {import('tailwindcss').Config} */
+
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  // mode: "jit",
-  darkMode: "class",
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     backgroundSize: {
       auto: "auto",
@@ -29,6 +29,8 @@ module.exports = {
   },
   plugins: [
     require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/forms"),
+    // require("@tailwindcss/forms"),
+    // require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/typography"),
   ],
 };

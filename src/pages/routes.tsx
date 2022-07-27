@@ -1,4 +1,4 @@
-import { Home } from "./index";
+import Home from "./Home";
 import * as paths from "../constants/routes";
 
 const routes = [
