@@ -1,19 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     backgroundSize: {
-      auto: "auto",
-      cover: "cover",
-      contain: "contain",
-      "50%": "50%",
+      auto: 'auto',
+      cover: 'cover',
+      contain: 'contain',
+      '50%': '50%',
     },
     extend: {
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: (theme) => ({
         silhouette: "url('/src/assets/silhouette.png')",
@@ -22,15 +22,15 @@ module.exports = {
   },
   variants: {
     extend: {
-      opacity: ["disabled"],
-      cursor: ["disabled"],
-      grayscale: ["hover", "focus"],
+      opacity: ['disabled'],
+      cursor: ['disabled'],
+      grayscale: ['hover', 'focus'],
     },
   },
   plugins: [
-    require("@tailwindcss/aspect-ratio"),
+    require('@tailwindcss/aspect-ratio'),
     // require("@tailwindcss/forms"),
     // require("@tailwindcss/line-clamp"),
-    require("@tailwindcss/typography"),
+    require('@tailwindcss/typography'),
   ],
 };

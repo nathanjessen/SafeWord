@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import * as paths from "./constants/routes";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
+import * as paths from './constants/routes';
+import Home from './pages/Home';
 import './styles/tailwind.css';
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
 
 export default function App() {
   return (
