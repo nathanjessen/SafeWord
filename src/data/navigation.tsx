@@ -4,7 +4,7 @@ export type NavItem = {
 };
 
 export const navigation: NavItem[] = [
-  { name: "NFTs", href: "#" },
-  { name: "Roadmap", href: "#" },
-  { name: "Token", href: "#" },
+  { name: 'NFTs', href: '#' },
+  { name: 'Roadmap', href: '#' },
+  { name: 'Token', href: '#' },
 ];
