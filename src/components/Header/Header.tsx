@@ -1,5 +1,5 @@
-import { LOGO } from "../../assets";
-import { navigation } from "../../data/navigation";
+import { LOGO } from '../../assets';
+import { navigation } from '../../data/navigation';
 
 export const Header = () => {
   return (

@@ -1,2 +1,2 @@
-import { SafeWordGenerator } from "./SafeWordGenerator";
+import { SafeWordGenerator } from './SafeWordGenerator';
 export default SafeWordGenerator;

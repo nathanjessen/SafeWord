@@ -1,8 +1,8 @@
-import { render, cleanup } from "@testing-library/react";
-import { Default } from "./FeatureSection.stories";
+import { cleanup, render } from '@testing-library/react';
+import { Default } from './FeatureSection.stories';
 
 afterEach(cleanup);
 
-test("renders without crashing", () => {
+test('renders without crashing', () => {
   render(<Default {...Default.args} />);
 });

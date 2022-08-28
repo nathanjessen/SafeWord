@@ -1,5 +1,5 @@
-import { CheckIcon } from "@heroicons/react/solid";
-import { roadmap } from "../../data/roadmap";
+import { CheckIcon } from '@heroicons/react/solid';
+import { roadmap } from '../../data/roadmap';
 
 export const Roadmap = () => {
   return (
@@ -20,8 +20,11 @@ export const Roadmap = () => {
               {roadmap.map((step, stepIdx) => (
                 <li
                   key={step.name}
-                  className={["relative", stepIdx !== roadmap.length - 1 ? "pb-10" : ""].join(' ')}>
-                  {step.status === "complete" ? (
+                  className={[
+                    'relative',
+                    stepIdx !== roadmap.length - 1 ? 'pb-10' : '',
+                  ].join(' ')}>
+                  {step.status === 'complete' ? (
                     <>
                       {stepIdx !== roadmap.length - 1 ? (
                         <div
@@ -48,7 +51,7 @@ export const Roadmap = () => {
                         </span>
                       </span>
                     </>
-                  ) : step.status === "current" ? (
+                  ) : step.status === 'current' ? (
                     <>
                       {stepIdx !== roadmap.length - 1 ? (
                         <div

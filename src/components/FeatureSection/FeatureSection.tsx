@@ -9,11 +9,12 @@ export const FeatureSection = () => {
         </h2>
         <p className='mt-5 max-w-prose mx-auto text-xl text-gray-500'>
           Tokens will be distributed in such a way that the community is given
-          the majority, yet we're still able to accomplish our marketing goals and list on exchanges.
+          the majority, yet we're still able to accomplish our marketing goals
+          and list on exchanges.
         </p>
         <div className='mt-12'>
           <div className='grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
-            {features?.map(feature => (
+            {features?.map((feature) => (
               <div key={feature.name} className='pt-6 h-full'>
                 <div className='flow-root bg-gray-50 rounded-lg px-6 pb-8 h-full'>
                   <div className='-mt-6'>

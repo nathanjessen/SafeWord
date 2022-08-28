@@ -1,4 +1,4 @@
-import { collections } from "../../data/collections";
+import { collections } from '../../data/collections';
 
 export const Gallery = () => {
   return (
@@ -14,7 +14,9 @@ export const Gallery = () => {
           {collections.map((collection, index) => (
             <li key={index} className='relative'>
               <div
-                className={`group block w-full aspect-w-10 aspect-h-7 rounded-lg focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-red-500 overflow-hidden ${collection.color ? collection.color : 'bg-gray-100'}`}>
+                className={`group block w-full aspect-w-10 aspect-h-7 rounded-lg focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-red-500 overflow-hidden ${
+                  collection.color ? collection.color : 'bg-gray-100'
+                }`}>
                 <img
                   src={collection.source}
                   alt=''
@@ -23,7 +25,9 @@ export const Gallery = () => {
                 <button
                   type='button'
                   className='absolute inset-0 focus:outline-none'>
-                  <span className='sr-only'>View details for {collection.title}</span>
+                  <span className='sr-only'>
+                    View details for {collection.title}
+                  </span>
                 </button>
               </div>
               {/* <p className='mt-2 block text-sm font-medium text-gray-900 truncate pointer-events-none'>

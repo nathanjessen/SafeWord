@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { terms } from "../../data/terms";
-import { phrases } from "../../data/phrases";
+import { useState } from 'react';
+import { phrases } from '../../data/phrases';
+import { terms } from '../../data/terms';
 
 export const SafeWordGenerator = () => {
-  const [safeword, setSafeWord] = useState<string>("");
+  const [safeword, setSafeWord] = useState<string>('');
   const termsLen = terms.length;
   const phrasesLen = phrases.length;
 
@@ -11,7 +11,7 @@ export const SafeWordGenerator = () => {
     const rand = Math.random();
     const phrase = phrases[Math.floor(rand * phrasesLen)];
     const word = terms[Math.floor(rand * termsLen)];
-    setSafeWord(phrase.replace("{1}", word));
+    setSafeWord(phrase.replace('{1}', word));
   };
 
   return (

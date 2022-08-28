@@ -1,7 +1,7 @@
 export const Stats = () => {
   const price = 0;
   const holders = 0;
-  const supply = "1,000,000,000";
+  const supply = '1,000,000,000';
   const marketcap = 0;
 
   return (

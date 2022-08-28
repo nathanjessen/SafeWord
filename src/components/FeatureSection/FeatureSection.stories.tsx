@@ -1,8 +1,8 @@
-import { Story, Meta } from '@storybook/react';
+import { Meta, Story } from '@storybook/react';
 import { FeatureSection } from './FeatureSection';
 
 export default {
-  title: "Components/FeatureSection",
+  title: 'Components/FeatureSection',
   component: FeatureSection,
 } as Meta;
 
