@@ -1,4 +1,4 @@
-import { Meta, Story } from '@storybook/react';
+import { Meta } from '@storybook/react';
 import { FeatureSection } from './FeatureSection';
 
 export default {
@@ -6,7 +6,6 @@ export default {
   component: FeatureSection,
 } as Meta;
 
-const Template: Story = (args) => <FeatureSection {...args} />;
-
-export const Default = Template.bind({});
-Default.args = {};
+export const Default = {
+  args: {},
+};
